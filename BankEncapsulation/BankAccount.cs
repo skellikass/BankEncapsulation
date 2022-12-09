@@ -17,6 +17,7 @@ namespace BankEncapsulation
         public void DepositMethod (double amount)
         {
             _balance += amount;
+            Console.WriteLine($"You deposited: {amount,0:c}");
         }
         public double GetBalance ()
         {
